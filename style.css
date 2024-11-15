@@ -3,3 +3,36 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+}
+
+.header {
+    @font-face {
+        font-family: Norse;
+        src: url("assets/Norse-Bold.otf") format("opentype");
+    }
+}
+
+fieldset {
+    border: 0;
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    width: 500px;
+    height: 1000px;
+}
+
+img {
+    display: flex;
+    width: 500px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
