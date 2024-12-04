@@ -22,19 +22,26 @@ img {
 .main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .text {
     display: flex;
-    padding-top: 200px;
+    padding: 50px;
+    height: 33vh;
     font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+
     background-color: #f9fafb;
 }
 
 .form {
     display: flex;
+    flex-direction: column;
     background-color: white;
-    flex-grow: 0;
+    height: 33vh;
+    padding: 50px;
 }
 
 fieldset {
@@ -47,6 +54,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     height: 33vh;
+    background-color: #f9fafb;
 }
 .footer button {
     display: flex;
