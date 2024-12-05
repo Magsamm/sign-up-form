@@ -8,46 +8,53 @@
         <title>Document</title>
     </head>
     <body>
-        <div class="sidebar">
-            <img src="assets/forest.jpg" alt="" />
+        <div class="card-container">
+            <img class="image" src="assets/forest.jpg" />
+            <div class="background"></div>
+            <div class="card-heading">ODIN</div>
+            <img class="logo" src="assets/odin-lined.png" />
         </div>
-
         <div class="main">
             <div class="text">
                 <p>
                     This is not a real online service! You need something like this in your life to
-                    help you realize your deepest dreams. Sign up <em>now</em> to get started.
+                    help you realize your deepest dreams. <br />Sign up <em>now</em> to get started.
                     <br />
-                    <br />you know <em>know</em> you want to.
+                    <br />you <em>know</em> you want to.
                 </p>
             </div>
 
             <div class="form">
                 <p>Lets do this!</p>
                 <form>
-                    <fieldset>
-                        <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" name="first_name" />
+                    <div class="name">
+                        <fieldset>
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name" />
 
-                        <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" name="last_name" />
-                    </fieldset>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" />
+                        </fieldset>
+                    </div>
 
-                    <fieldset>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" />
+                    <div class="email">
+                        <fieldset>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" />
 
-                        <label for="phone_number">Phone Number</label>
-                        <input type="tel" id="phone_number" name="phone_number" />
-                    </fieldset>
+                            <label for="phone_number">Phone Number</label>
+                            <input type="tel" id="phone_number" name="phone_number" />
+                        </fieldset>
+                    </div>
+                    <div class="password">
+                        <fieldset>
+                            <label for="user_password">Password</label>
+                            <input type="password" id="user_password" name="password" required />
 
-                    <fieldset>
-                        <label for="user_password">Password</label>
-                        <input type="password" id="user_password" name="password" required />
-
-                        <label for="user_password">confirm password</label>
-                        <input type="password" id="confirm_password" name="password" required />
-                    </fieldset>
+                            <label for="user_password">confirm password</label>
+                            <input type="password" id="confirm_password" name="password" required />
+                        </fieldset>
+                    </div>
                 </form>
             </div>
             <div class="footer">
