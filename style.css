@@ -36,18 +36,37 @@ img {
     background-color: #f9fafb;
 }
 
+input:focus {
+    border: solid 2px blue;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.form p {
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+input {
+    display: flex;
+    width: 15rem;
+    height: 1.5rem;
+    flex-direction: column;
+}
+
+form,
 .form {
     display: flex;
-    flex-direction: column;
     background-color: white;
     height: 33vh;
-    padding: 50px;
+    padding: 20px;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 fieldset {
     border: 0;
+    border: 2px sol;
     display: flex;
-    flex-direction: row;
 }
 
 .footer {
