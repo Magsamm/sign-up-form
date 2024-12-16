@@ -19,15 +19,25 @@ body {
 
 .card-container {
     display: flex;
-    position: relative;
     width: 500px;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+.background {
+    display: flex;
+    top: 20rem;
+    position: absolute;
+    height: 10rem;
+    width: 500px;
+    background: black;
+    opacity: 0.6;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-text {
     display: flex;
     top: 20rem;
-    position: absolute;
     font-size: 5rem;
     color: white;
     font-family: "Norse-Bold";
@@ -36,8 +46,6 @@ body {
 .logo {
     display: flex;
     top: 20rem;
-    position: absolute;
-    width: 150px;
     height: 8rem;
     color: white;
 }
@@ -48,20 +56,9 @@ body {
     height: 100%;
 }
 
-.background {
-    display: flex;
-    top: 20rem;
-    position: absolute;
-    height: 10rem;
-    width: 500px;
-    background: black;
-    opacity: 0.6;
-}
-
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .text {

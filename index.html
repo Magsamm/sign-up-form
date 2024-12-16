@@ -3,16 +3,17 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
+       <link rel="stylesheet" href="style.css" />
 
         <title>Document</title>
     </head>
     <body>
         <div class="card-container">
+            <div class="background">
+                <img class="logo" src="assets/odin-lined.png" />
+                <div class="logo-text">ODIN</div>
+            </div>
             <img class="image" src="assets/forest.jpg" />
-            <div class="background"></div>
-            <img class="logo" src="assets/odin-lined.png" />
-            <div class="logo-text">ODIN</div>
         </div>
         <div class="main">
             <div class="text">
@@ -29,34 +30,35 @@
                 <form>
                     <div class="name">
                         <fieldset>
-                            <label for="first_name">First Name</label>
-                            <input type="text" id="first_name" name="first_name" />
-
-                            <label for="last_name">Last Name</label>
-                            <input type="text" id="last_name" name="last_name" />
+                            
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" name="first_name" />
+                                <label for="last_name">LAST NAME</label>
+                                 <input type="text" id="last_name" name="last_name" />
+                              
                         </fieldset>
                     </div>
 
                     <div class="email">
                         <fieldset>
-                            <label for="email">Email</label>
+                            <label for="email">EMAIL</label>
                             <input type="email" id="email" name="email" />
 
-                            <label for="phone_number">Phone Number</label>
+                            <label for="phone_number">PHONE NUMBER</label>
                             <input type="tel" id="phone_number" name="phone_number" />
                         </fieldset>
                     </div>
                     <div class="password">
                         <fieldset>
-                            <label for="user_password">Password</label>
+                            <label for="user_password">PASSWORD</label>
                             <input type="password" id="user_password" name="password" required />
 
-                            <label for="user_password">confirm password</label>
+                            <label for="user_password">CONFIRM PASSWORD</label>
                             <input type="password" id="confirm_password" name="password" required />
                         </fieldset>
                     </div>
                 </form>
-            </div>
+                
             <div class="footer">
                 <button>Create Account</button>
                 <p>already have an account?<strong>Log in</strong></p>
