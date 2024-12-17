@@ -60,6 +60,11 @@ body {
     flex-direction: column;
 }
 
+.main strong {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
 .text {
     display: flex;
     padding: 50px;
@@ -72,12 +77,12 @@ body {
 
 input:focus {
     border: solid 2px blue;
-    box-shadow: 1rem 1rem 1rem gray;
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
 }
 
-.form p {
+.footer p {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 input {
@@ -130,5 +135,7 @@ fieldset {
 }
 .footer strong {
     display: flex;
+    font-size: inherit;
+    padding: 0;
     color: #596d48;
 }
