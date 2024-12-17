@@ -67,24 +67,25 @@ body {
     font-weight: bold;
     font-size: 1.5rem;
     align-items: center;
-
     background-color: #f9fafb;
 }
 
 input:focus {
     border: solid 2px blue;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 1rem 1rem 1rem gray;
 }
 
 .form p {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 input {
     width: 15rem;
     height: 1.5rem;
-    display: flex;
+}
+form label {
+    font-size: 1rem;
 }
 
 form {
@@ -96,8 +97,7 @@ form {
     flex-wrap: wrap;
 }
 
-fieldset,
-fieldset label {
+fieldset {
     display: flex;
     border: 0;
 }
@@ -117,7 +117,7 @@ fieldset label {
     height: 3rem;
     background-color: #596d48;
     color: white;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
     border-radius: 5px;
     justify-content: center;
