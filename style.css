@@ -28,9 +28,10 @@ body {
     position: absolute;
     height: 10rem;
     width: 500px;
-    background: black;
-    opacity: 0.6;
+    background: rgba(0, 0, 0, 0.6);
+
     align-items: center;
+    color: white;
     justify-content: center;
 }
 
@@ -108,6 +109,8 @@ fieldset {
 }
 
 .footer {
+    box-shadow: 10px 10px 10px 10px gray;
+
     display: flex;
     flex-direction: column;
     height: 33vh;
