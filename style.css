@@ -92,10 +92,10 @@ body {
 }
 
 /* pseudo selectors to alter appearance of inputs */
-
 input:focus {
     border: solid 2px blue;
     box-shadow: 0.5rem 0.5rem 0.5rem gray;
+    box-sizing: border-box;
 }
 
 /* password inputs styling */
