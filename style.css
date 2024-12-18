@@ -29,7 +29,6 @@ body {
     height: 10rem;
     width: 500px;
     background: rgba(0, 0, 0, 0.6);
-
     align-items: center;
     color: white;
     justify-content: center;
@@ -41,6 +40,13 @@ body {
     font-size: 5rem;
     color: white;
     font-family: "Norse-Bold";
+}
+.card-container p {
+    display: flex;
+    position: absolute;
+    align-self: flex-end;
+    font-size: 5rem;
+    z-index: 1;
 }
 
 .logo {
@@ -76,9 +82,20 @@ body {
     background-color: #f9fafb;
 }
 
+/* pseudo selectors to alter appearance of inputs */
+
 input:focus {
     border: solid 2px blue;
     box-shadow: 0.5rem 0.5rem 0.5rem gray;
+}
+
+/* password inputs styling */
+input:invalid {
+    border: solid 1px red;
+}
+
+legend {
+    color: red;
 }
 
 .footer p {
@@ -88,10 +105,15 @@ input:focus {
 
 input {
     width: 20rem;
-    height: 1.5rem;
+    height: 2rem;
 }
 form label {
     font-size: 1rem;
+}
+
+.form strong {
+    display: flex;
+    padding: 2rem;
 }
 
 form {
@@ -119,6 +141,7 @@ fieldset {
     padding-top: 50px;
     padding-left: 50px;
 }
+
 .footer button {
     display: flex;
     width: 300px;
