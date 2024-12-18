@@ -41,12 +41,21 @@ body {
     color: white;
     font-family: "Norse-Bold";
 }
-.card-container p {
+/* photo credit */
+.card-container a {
     display: flex;
     position: absolute;
     align-self: flex-end;
-    font-size: 5rem;
+    font-size: 1rem;
     z-index: 1;
+    gap: 0.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.card-container p {
+    text-decoration: underline;
 }
 
 .logo {
